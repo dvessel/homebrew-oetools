@@ -6,4 +6,8 @@ class Oeadvscan < Formula
   license "MIT"
 
   depends_on "advancescan"
+
+  def install
+    bin.install "oeadvscan"
+  end
 end
